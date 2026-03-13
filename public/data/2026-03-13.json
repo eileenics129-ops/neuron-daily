@@ -1,0 +1,305 @@
+{
+  "date": "2026-03-13",
+  "updated": "2026-03-13T16:48:46.733343+08:00",
+  "sources": 16,
+  "news": [
+    {
+      "title": "马斯克从Cursor挖走两位天才少年",
+      "url": "https://www.qbitai.com/2026/03/387242.html",
+      "summary": "xAI好像一座围城",
+      "time": "03-13",
+      "source": "量子位"
+    },
+    {
+      "title": "我用10块钱的「熟虾」，搞了个AI编辑部！",
+      "url": "https://www.qbitai.com/2026/03/387116.html",
+      "summary": "在网页上就能直接用",
+      "time": "03-13",
+      "source": "量子位"
+    },
+    {
+      "title": "统计学最高荣誉回归华人！苏炜杰：AI需要一门新的数学语言",
+      "url": "https://www.qbitai.com/2026/03/387102.html",
+      "summary": "像「剥洋葱」一样优化AI黑盒",
+      "time": "03-13",
+      "source": "量子位"
+    },
+    {
+      "title": "华人博士4个月干出具身独角兽！斯坦福家务机器人再融11亿，开建中国团队",
+      "url": "https://www.qbitai.com/2026/03/387072.html",
+      "summary": "2026，不再只做demo",
+      "time": "03-13",
+      "source": "量子位"
+    },
+    {
+      "title": "国内唯一入选的 AI 浏览器！QQ浏览器登上 a16z 全球 AI 应用榜单",
+      "url": "https://www.qbitai.com/2026/03/387068.html",
+      "summary": "",
+      "time": "03-12",
+      "source": "量子位"
+    },
+    {
+      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving …",
+      "time": "08-14",
+      "source": "机器之心"
+    },
+    {
+      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor env…",
+      "time": "06-24",
+      "source": "机器之心"
+    },
+    {
+      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement …",
+      "time": "06-16",
+      "source": "机器之心"
+    },
+    {
+      "title": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
+      "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
+      "summary": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the p…",
+      "time": "06-16",
+      "source": "机器之心"
+    },
+    {
+      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
+      "summary": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coher…",
+      "time": "05-28",
+      "source": "机器之心"
+    },
+    {
+      "title": "率先向AI托管账号出手，为什么小红书要打响第一枪？",
+      "url": "https://36kr.com/p/3720962630417024?f=rss",
+      "summary": "托举小红书社区氛围的真实体验和情感，只能来源于人。 当OpenClaw爆火，“养龙虾”安全性仍存疑之时，借助OpenClaw等AI工具形成的AI托管账号已经悄悄流向主流内容社区。 在此背景下，小红书向AI托管账号开了第一枪，这也是主流平台首…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
+    },
+    {
+      "title": "科氪 | AWE 2026再携重磅阵容，MOVA全面披露芯片战略，擎画“主动时代”技术版图",
+      "url": "https://36kr.com/p/3720969176988041?f=rss",
+      "summary": "2026年3月12日，中国上海——当人工智能加速从模型能力走向系统能力，家庭场景正成为AI规模化落地的关键单元。今日，全球超高端AI智慧生活引领者MOVA在中国家电及消费电子博览会（AWE 2026）开幕首日，首次系统披露自研芯片战略，并对…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
+    },
+    {
+      "title": "龙虾火爆，但这8个“注意事项”你应该知道",
+      "url": "https://36kr.com/p/3720215408310663?f=rss",
+      "summary": "文｜王毓婵 周鑫雨 编辑｜苏建勋 3月初，大潭参加了深圳一场OpenClaw线下活动。现场人头攒动，两边走道也站满了人。 让几百人聚集在一起的，是当下最火的Agent开源框架，OpenClaw，别称“龙虾”。这款可以被直接部署在电脑本地的A…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
+    },
+    {
+      "title": "8点1氪丨微信新功能可“忽略”语音/视频来电；多所高校紧急禁用AI龙虾；苹果折叠屏顶配或超2万元",
+      "url": "https://36kr.com/p/3720613899958912?f=rss",
+      "summary": "今日热点导览 腾讯回应OpenClaw之父Peter的“抄袭”指责：希望继续支持生态 中国灵活就业人员超2.4亿，参加职工保险支持政策将出台 苹果回应有人利用“14天无理由退货”换屏退货赚差价 曝千问郁博文加入字节跳动，字节暂未回应 今年以…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
+    },
+    {
+      "title": "美团王莆中：建设物理世界AI底座，帮每个商家都用上自己的AI助理",
+      "url": "https://36kr.com/newsflashes/3721113083525511?f=rss",
+      "summary": "3月13日，美团召开2026管理层沟通会。对于AI发展，美团核心本地商业CEO王莆中表示，美团将坚持加大投入，一层是投入研发物流、机器人等相关科技，譬如无人机、无人车等；另一层是建设丰富的物理世界信息、真实的评价，捕捉即时动态的信息，为模型…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
+    },
+    {
+      "title": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages",
+      "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+      "summary": "Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
+    },
+    {
+      "title": "Gemini’s task automation is here and it’s wild",
+      "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "summary": "A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automa…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
+    },
+    {
+      "title": "Anthropic’s Claude AI can respond with charts, diagrams, and other visuals now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizati…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
+    },
+    {
+      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
+      "url": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "summary": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a …",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
+    },
+    {
+      "title": "Bespoke AI models are the next big thing in filmmaking",
+      "url": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
+      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole clo…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
+    }
+  ],
+  "biz": [
+    {
+      "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "url": "https://www.ycombinator.com/blog/adding-canada-back/",
+      "summary": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countrie…",
+      "time": "02-06",
+      "source": "YC Blog"
+    },
+    {
+      "title": "Congratulations to EquipmentShare on Going Public",
+      "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
+      "summary": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they've built the operating syste…",
+      "time": "01-23",
+      "source": "YC Blog"
+    },
+    {
+      "title": "Announcing the YC AI Stack",
+      "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/",
+      "summary": "We've partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free c…",
+      "time": "01-17",
+      "source": "YC Blog"
+    },
+    {
+      "title": "2026 Demo Day Dates",
+      "url": "https://www.ycombinator.com/blog/2026-demo-days/",
+      "summary": "We’re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.",
+      "time": "12-19",
+      "source": "YC Blog"
+    },
+    {
+      "title": "国产AI助手谁最好用？国产AI助手工作能力测评",
+      "url": "http://www.huxiu.com/article/4841087.html?f=wangzhan",
+      "summary": "AI已经能解决我工作里遇到的大部分文字上的问题了......本期视频用豆包、千问、元宝、Kimi和DeepSeek五家AI，实测文本归纳、数据分析、行业洞察和写作能力。下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线…",
+      "time": "03-12",
+      "source": "虎嗅"
+    },
+    {
+      "title": "为啥都说美国袭击伊朗是“AI战争”的序幕？",
+      "url": "http://www.huxiu.com/article/4841080.html?f=wangzhan",
+      "summary": "一开年，川普连着搞了几波大的，都在短时间内取得了战果。相传，这全靠AI“打通了战争全链路”。在“AI战争”的都市传说当中，大模型公司Anthropic、和神秘情报公司Palantir成了主角，我们今天来聊聊Palantir。下载虎嗅APP，…",
+      "time": "03-12",
+      "source": "虎嗅"
+    },
+    {
+      "title": "龙虾太火，互联网老炮组团进场了",
+      "url": "http://www.huxiu.com/article/4840928.html?f=wangzhan",
+      "summary": "“能和AI聊天就不要和人类聊天，删除所有90年之前出生人的联系方式，千万不要沾染任何老登气息”。孙宇晨这段暴论刚出来的时候，我还有点生气：但我发现，已经有人对号入座了。傅盛、朱啸虎、李开复，最年轻的48岁，最老的64岁，都在这波明显由年轻人…",
+      "time": "03-11",
+      "source": "虎嗅"
+    },
+    {
+      "title": "全民追捧“养龙虾”，一代人有一代人的鸡蛋要领",
+      "url": "http://www.huxiu.com/article/4840774.html?f=wangzhan",
+      "summary": "一代人有一代人的鸡蛋要领，如今这代人的鸡蛋可能就是“养龙虾”了，这里的“龙虾”说的不是水产动物，而是当前爆火的OpenClaw，这是一款号称能“接管电脑，解放双手”的开源智能体。下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创…",
+      "time": "03-11",
+      "source": "虎嗅"
+    },
+    {
+      "title": "Manus Agents for Telegram",
+      "url": "https://www.producthunt.com/products/manus-agents-for-telegram",
+      "summary": "Personal AI Agent in Your Chat Discussion | Link",
+      "time": "2026-02-20",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "ClawMote",
+      "url": "https://www.producthunt.com/products/clawmote-one-hand-openclaw-wispr-flow",
+      "summary": "One-hand OpenClaw control via voice Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "Hyper",
+      "url": "https://www.producthunt.com/products/hyper-10",
+      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "Perplexity Computer Skills",
+      "url": "https://www.producthunt.com/products/perplexity-computer-skills",
+      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "time": "2026-03-04",
+      "source": "Product Hunt"
+    }
+  ],
+  "apps": [
+    {
+      "title": "Manus Agents for Telegram",
+      "url": "https://www.producthunt.com/products/manus-agents-for-telegram",
+      "summary": "Personal AI Agent in Your Chat Discussion | Link",
+      "time": "2026-02-20",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "ClawMote",
+      "url": "https://www.producthunt.com/products/clawmote-one-hand-openclaw-wispr-flow",
+      "summary": "One-hand OpenClaw control via voice Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "Hyper",
+      "url": "https://www.producthunt.com/products/hyper-10",
+      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "Perplexity Computer Skills",
+      "url": "https://www.producthunt.com/products/perplexity-computer-skills",
+      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "time": "2026-03-04",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "LocalPDF.io",
+      "url": "https://www.producthunt.com/products/localpdf-io",
+      "summary": "Process your legal/medical/financial documents locally Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "langflow-ai/openrag",
+      "url": "https://github.com/langflow-ai/openrag",
+      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opens…",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 简洁通用的群体智能引擎，预测万物 A Simple and Un…",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "Hindsight: Agent Memory That Learns Documentation • Paper • Cookbook • Hindsight Cloud What is Hindsight? Hindsight™ is …",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "summary": "Official inference framework for 1-bit LLMsbitnet.cpp Try it out via this demo, or build and run it on your own CPU or G…",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "summary": "The best ChatGPT that $100 can buy.nanochat nanochat is the simplest experimental harness for training LLMs. It is desig…",
+      "time": "",
+      "source": "GitHub Trending"
+    }
+  ]
+}
