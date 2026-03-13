@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日神经元 · Neuron Daily</title>
+  <meta name="description" content="每天更新最值得关注的AI资讯、商业化点子和好玩新应用" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Noto+Serif+SC:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --bg2: #111118;
+      --bg3: #18181f;
+      --border: rgba(255,255,255,0.07);
+      --border-bright: rgba(255,255,255,0.13);
+      --text: #e8e8f0;
+      --text-dim: #888899;
+      --text-dimmer: #44445a;
+      --accent: #ff6b2b;
+      --accent2: #ff9a5c;
+      --accent-glow: rgba(255, 107, 43, 0.15);
+      --green: #4ade80;
+      --blue: #60a5fa;
+      --purple: #a78bfa;
+      --tag-news: rgba(96,165,250,0.12);
+      --tag-biz: rgba(74,222,128,0.12);
+      --tag-app: rgba(167,139,250,0.12);
+      --font-display: 'Syne', sans-serif;
+      --font-body: 'Noto Serif SC', serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ─── Noise texture overlay ─── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 0; opacity: 0.4;
+    }
+
+    /* ─── Header ─── */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10,10,15,0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+    }
+
+    .header-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 60px;
+    }
+
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+
+    .logo-mark {
+      width: 32px; height: 32px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display);
+      font-weight: 800; font-size: 14px;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .logo-text {
+      font-family: var(--font-display);
+      font-weight: 700; font-size: 1rem;
+      color: var(--text);
+      letter-spacing: 0.02em;
+    }
+
+    .logo-text span {
+      color: var(--accent);
+    }
+
+    nav { display: flex; gap: 0; }
+
+    nav a {
+      font-family: var(--font-display);
+      font-size: 0.78rem; font-weight: 600;
+      color: var(--text-dim);
+      text-decoration: none;
+      padding: 0 1rem;
+      height: 60px;
+      display: flex; align-items: center;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    nav a:hover, nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    .header-date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-dimmer);
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── Hero ─── */
+    .hero {
+      max-width: 1200px; margin: 0 auto;
+      padding: 3rem 2rem 2rem;
+      position: relative; z-index: 1;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: flex; align-items: center; gap: 8px;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block; width: 24px; height: 1px;
+      background: var(--accent);
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      font-size: 1rem;
+      color: var(--text-dim);
+      max-width: 520px;
+      margin-bottom: 2rem;
+    }
+
+    .hero-stats {
+      display: flex; gap: 2rem; flex-wrap: wrap;
+    }
+
+    .stat {
+      display: flex; flex-direction: column; gap: 2px;
+    }
+
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 1.5rem; font-weight: 800;
+      color: var(--text);
+    }
+
+    .stat-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-dimmer);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ─── Tabs / Filter ─── */
+    .tabs-bar {
+      max-width: 1200px; margin: 0 auto;
+      padding: 0 2rem 1.5rem;
+      display: flex; gap: 0.5rem; flex-wrap: wrap;
+      position: relative; z-index: 1;
+    }
+
+    .tab-btn {
+      font-family: var(--font-display);
+      font-size: 0.78rem; font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.2s;
+      letter-spacing: 0.03em;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--border-bright);
+      color: var(--text);
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* ─── Main grid ─── */
+    .main {
+      max-width: 1200px; margin: 0 auto;
+      padding: 0 2rem 4rem;
+      position: relative; z-index: 1;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    /* Featured card spans 2 cols */
+    .card-featured { grid-column: span 2; }
+
+    /* ─── Card ─── */
+    .card {
+      background: var(--bg2);
+      padding: 1.75rem;
+      display: flex; flex-direction: column; gap: 0.75rem;
+      transition: background 0.2s;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: var(--accent-glow);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .card:hover { background: var(--bg3); }
+    .card:hover::after { opacity: 1; }
+
+    .card-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-family: var(--font-mono);
+      font-size: 0.65rem; font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 100px;
+      width: fit-content;
+    }
+
+    .tag-news { background: var(--tag-news); color: var(--blue); }
+    .tag-biz  { background: var(--tag-biz);  color: var(--green); }
+    .tag-app  { background: var(--tag-app);  color: var(--purple); }
+
+    .card-tag .dot {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: currentColor;
+      flex-shrink: 0;
+    }
+
+    .card h2 {
+      font-family: var(--font-display);
+      font-size: 1.05rem; font-weight: 700;
+      line-height: 1.35;
+      color: var(--text);
+    }
+
+    .card-featured h2 {
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      line-height: 1.65;
+      flex: 1;
+    }
+
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-top: auto; padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .card-source {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-dimmer);
+      letter-spacing: 0.05em;
+    }
+
+    .card-time {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-dimmer);
+    }
+
+    .card-arrow {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-dimmer);
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .card:hover .card-arrow {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    /* ─── Section dividers ─── */
+    .section-header {
+      max-width: 1200px; margin: 3rem auto 1rem;
+      padding: 0 2rem;
+      display: flex; align-items: center; gap: 1rem;
+      position: relative; z-index: 1;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+
+    .section-line {
+      flex: 1; height: 1px;
+      background: var(--border);
+    }
+
+    .section-count {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-dimmer);
+    }
+
+    /* ─── Loading skeleton ─── */
+    .skeleton {
+      background: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 6px;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* ─── Footer ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      position: relative; z-index: 1;
+    }
+
+    footer p {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-dimmer);
+      letter-spacing: 0.05em;
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
+
+    /* ─── Pulse dot for live indicator ─── */
+    .live-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: inline-block;
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    /* ─── Entrance animations ─── */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card { animation: fadeUp 0.4s ease forwards; opacity: 0; }
+    .card:nth-child(1) { animation-delay: 0.05s; }
+    .card:nth-child(2) { animation-delay: 0.1s; }
+    .card:nth-child(3) { animation-delay: 0.15s; }
+    .card:nth-child(4) { animation-delay: 0.2s; }
+    .card:nth-child(5) { animation-delay: 0.25s; }
+    .card:nth-child(6) { animation-delay: 0.3s; }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+      .card-featured { grid-column: span 2; }
+    }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      .card-featured { grid-column: span 1; }
+      nav { display: none; }
+      .hero-stats { gap: 1.5rem; }
+    }
+
+    /* ─── Top accent line ─── */
+    .top-line {
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2), transparent);
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-line"></div>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-mark">N</div>
+      <span class="logo-text">每日神经元 <span>·</span> Neuron Daily</span>
+    </a>
+    <nav>
+      <a href="#news" class="active">资讯</a>
+      <a href="#biz">商业</a>
+      <a href="#apps">应用</a>
+    </nav>
+    <span class="header-date" id="header-date">Loading...</span>
+  </div>
+</header>
+
+<section class="hero fade-up">
+  <div class="hero-eyebrow">
+    <span class="live-dot"></span>
+    每日更新 · Daily Update
+  </div>
+  <h1>AI 世界的<br /><em>每日脉搏</em></h1>
+  <p class="hero-sub">精选全球 AI 资讯、商业化点子与新奇应用，每天早 10 点更新。</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num" id="stat-news">—</span>
+      <span class="stat-label">今日资讯</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-biz">—</span>
+      <span class="stat-label">商业点子</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-apps">—</span>
+      <span class="stat-label">新应用</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-sources">—</span>
+      <span class="stat-label">信息源</span>
+    </div>
+  </div>
+</section>
+
+<!-- AI 资讯 -->
+<div class="section-header" id="news">
+  <span class="section-title">📰 AI 资讯</span>
+  <div class="section-line"></div>
+  <span class="section-count" id="news-count"></span>
+</div>
+<div class="main">
+  <div class="grid" id="news-grid">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- 商业化点子 -->
+<div class="section-header" id="biz">
+  <span class="section-title">💡 商业化点子</span>
+  <div class="section-line"></div>
+  <span class="section-count" id="biz-count"></span>
+</div>
+<div class="main">
+  <div class="grid" id="biz-grid">
+  </div>
+</div>
+
+<!-- 好玩新应用 -->
+<div class="section-header" id="apps">
+  <span class="section-title">🎮 好玩新应用</span>
+  <div class="section-line"></div>
+  <span class="section-count" id="apps-count"></span>
+</div>
+<div class="main">
+  <div class="grid" id="apps-grid">
+  </div>
+</div>
+
+<footer>
+  <p>每日神经元 · Neuron Daily &nbsp;|&nbsp; 由 AI 自动抓取整理 &nbsp;|&nbsp; 每天 10:00 AM 更新 &nbsp;|&nbsp; <a href="https://github.com/eileenics129-ops/neuron-daily">GitHub</a></p>
+</footer>
+
+<script>
+  // ─── Date display ───
+  const now = new Date();
+  const opts = { year:'numeric', month:'long', day:'numeric', weekday:'short' };
+  document.getElementById('header-date').textContent =
+    now.toLocaleDateString('zh-CN', opts);
+
+  // ─── Load data ───
+  async function loadData() {
+    try {
+      const res = await fetch('data/latest.json?v=' + Date.now());
+      if (!res.ok) throw new Error('no data');
+      const data = await res.json();
+      renderAll(data);
+    } catch(e) {
+      renderPlaceholder();
+    }
+  }
+
+  function renderAll(data) {
+    const news = data.news || [];
+    const biz  = data.biz  || [];
+    const apps = data.apps || [];
+
+    document.getElementById('stat-news').textContent   = news.length;
+    document.getElementById('stat-biz').textContent    = biz.length;
+    document.getElementById('stat-apps').textContent   = apps.length;
+    document.getElementById('stat-sources').textContent = data.sources || '8+';
+
+    document.getElementById('news-count').textContent = news.length + ' 条';
+    document.getElementById('biz-count').textContent  = biz.length  + ' 条';
+    document.getElementById('apps-count').textContent = apps.length + ' 条';
+
+    renderGrid('news-grid', news, 'news');
+    renderGrid('biz-grid',  biz,  'biz');
+    renderGrid('apps-grid', apps, 'app');
+  }
+
+  function renderGrid(id, items, type) {
+    const grid = document.getElementById(id);
+    if (!items.length) {
+      grid.innerHTML = '<div class="card" style="grid-column:1/-1;opacity:1"><p style="color:var(--text-dimmer);font-family:var(--font-mono);font-size:0.75rem">今日内容生成中，请稍后刷新...</p></div>';
+      return;
+    }
+    grid.innerHTML = items.map((item, i) => cardHTML(item, type, i === 0)).join('');
+  }
+
+  const tagConf = {
+    news: { cls: 'tag-news', label: 'AI 资讯' },
+    biz:  { cls: 'tag-biz',  label: '商业点子' },
+    app:  { cls: 'tag-app',  label: '新应用' },
+  };
+
+  function cardHTML(item, type, featured) {
+    const tc = tagConf[type];
+    const url = item.url || '#';
+    return `
+      <div class="card ${featured ? 'card-featured' : ''}" onclick="window.open('${url}','_blank')">
+        <div class="card-tag ${tc.cls}"><span class="dot"></span>${item.source || tc.label}</div>
+        <h2>${item.title}</h2>
+        <p>${item.summary || item.desc || ''}</p>
+        <div class="card-footer">
+          <span class="card-source">${item.source || ''}</span>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="card-time">${item.time || ''}</span>
+            <div class="card-arrow">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderPlaceholder() {
+    document.getElementById('stat-news').textContent   = '—';
+    document.getElementById('stat-biz').textContent    = '—';
+    document.getElementById('stat-apps').textContent   = '—';
+    document.getElementById('stat-sources').textContent = '8+';
+
+    ['news-grid','biz-grid','apps-grid'].forEach(id => {
+      document.getElementById(id).innerHTML = `
+        <div class="card" style="grid-column:1/-1;opacity:1">
+          <p style="color:var(--text-dimmer);font-family:var(--font-mono);font-size:0.75rem">
+            ⏳ 内容正在生成中，今日 10:00 AM 后刷新查看...
+          </p>
+        </div>`;
+    });
+  }
+
+  loadData();
+</script>
+</body>
+</html>
