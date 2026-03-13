@@ -128,6 +128,52 @@
       max-width: 1200px; margin: 0 auto;
       padding: 3rem 2rem 2rem;
       position: relative; z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 2.5rem;
+      align-items: center;
+    }
+
+    .hero-left { display: flex; flex-direction: column; gap: 0; }
+
+    /* ─── Cover image ─── */
+    .hero-cover {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--border-bright);
+      aspect-ratio: 16/9;
+      background: var(--bg3);
+    }
+
+    .hero-cover img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .hero-cover:hover img { transform: scale(1.03); }
+
+    .hero-cover-badge {
+      position: absolute;
+      bottom: 12px; left: 12px;
+      background: rgba(10,10,15,0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border-bright);
+      border-radius: 8px;
+      padding: 5px 12px;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .hero-cover-glow {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 50%, rgba(255,107,43,0.08) 0%, transparent 70%);
+      pointer-events: none;
     }
 
     .hero-eyebrow {
@@ -433,6 +479,8 @@
     @media (max-width: 900px) {
       .grid { grid-template-columns: 1fr 1fr; }
       .card-featured { grid-column: span 2; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-cover { display: none; }
     }
 
     @media (max-width: 600px) {
@@ -469,29 +517,36 @@
 </header>
 
 <section class="hero fade-up">
-  <div class="hero-eyebrow">
-    <span class="live-dot"></span>
-    每日更新 · Daily Update
+  <div class="hero-left">
+    <div class="hero-eyebrow">
+      <span class="live-dot"></span>
+      每日更新 · Daily Update
+    </div>
+    <h1>AI 世界的<br /><em>每日脉搏</em></h1>
+    <p class="hero-sub">精选全球 AI 资讯、商业化点子与新奇应用，每天早 10 点更新。</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num" id="stat-news">—</span>
+        <span class="stat-label">今日资讯</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-biz">—</span>
+        <span class="stat-label">商业点子</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-apps">—</span>
+        <span class="stat-label">新应用</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-sources">—</span>
+        <span class="stat-label">信息源</span>
+      </div>
+    </div>
   </div>
-  <h1>AI 世界的<br /><em>每日脉搏</em></h1>
-  <p class="hero-sub">精选全球 AI 资讯、商业化点子与新奇应用，每天早 10 点更新。</p>
-  <div class="hero-stats">
-    <div class="stat">
-      <span class="stat-num" id="stat-news">—</span>
-      <span class="stat-label">今日资讯</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num" id="stat-biz">—</span>
-      <span class="stat-label">商业点子</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num" id="stat-apps">—</span>
-      <span class="stat-label">新应用</span>
-    </div>
-    <div class="stat">
-      <span class="stat-num" id="stat-sources">—</span>
-      <span class="stat-label">信息源</span>
-    </div>
+  <div class="hero-cover">
+    <img id="cover-img" src="images/cover-latest.png" alt="今日 AI 封面" onerror="this.parentElement.style.display='none'" />
+    <div class="hero-cover-glow"></div>
+    <div class="hero-cover-badge" id="cover-badge">今日封面 · AI Generated</div>
   </div>
 </section>
 

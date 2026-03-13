@@ -1,304 +1,304 @@
 {
   "date": "2026-03-13",
-  "updated": "2026-03-13T17:15:00+08:00",
-  "sources": 11,
+  "updated": "2026-03-13T17:23:48.904162+08:00",
+  "sources": 16,
   "news": [
     {
       "title": "马斯克从Cursor挖走两位天才少年",
       "url": "https://www.qbitai.com/2026/03/387242.html",
-      "summary": "xAI 以极具竞争力的薪酬从 AI 编程工具 Cursor 挖走两位核心工程师，引发硅谷对顶级 AI 人才争夺白热化的广泛关注。这两位年轻工程师是 Cursor 背后关键技术的核心贡献者。",
+      "summary": "xAI好像一座围城",
+      "time": "03-13",
+      "source": "量子位"
+    },
+    {
+      "title": "我用10块钱的「熟虾」，搞了个AI编辑部！",
+      "url": "https://www.qbitai.com/2026/03/387116.html",
+      "summary": "在网页上就能直接用",
       "time": "03-13",
       "source": "量子位"
     },
     {
       "title": "统计学最高荣誉回归华人！苏炜杰：AI需要一门新的数学语言",
-      "url": "https://www.qbitai.com/2026/03/387180.html",
-      "summary": "华人统计学家苏炜杰荣获统计学领域最高荣誉，他直言当前 AI 的爆发式发展需要全新的数学语言来描述与理解，现有统计框架已难以解释大规模神经网络的行为模式。",
+      "url": "https://www.qbitai.com/2026/03/387102.html",
+      "summary": "像「剥洋葱」一样优化AI黑盒",
       "time": "03-13",
       "source": "量子位"
     },
     {
-      "title": "华人博士4个月干出具身独角兽！斯坦福家务机器人再融11亿",
-      "url": "https://www.qbitai.com/2026/03/387050.html",
-      "summary": "由华人博士创立的具身智能公司 Physical Intelligence 完成新一轮 11 亿美元融资，估值飙升至独角兽级别。其家务机器人已能完成叠衣服、装洗碗机等复杂任务，并宣布在中国组建研发团队。",
+      "title": "华人博士4个月干出具身独角兽！斯坦福家务机器人再融11亿，开建中国团队",
+      "url": "https://www.qbitai.com/2026/03/387072.html",
+      "summary": "2026，不再只做demo",
       "time": "03-13",
       "source": "量子位"
     },
     {
-      "title": "QQ浏览器登上 a16z 全球 AI 应用榜单，国内唯一入选",
-      "url": "https://www.qbitai.com/2026/03/386900.html",
-      "summary": "a16z 发布全球 AI 应用榜单，QQ 浏览器凭借深度集成 AI 功能成为唯一上榜的国内产品。该榜单覆盖全球月活跃用户最高的 AI 原生应用，竞争激烈。",
+      "title": "国内唯一入选的 AI 浏览器！QQ浏览器登上 a16z 全球 AI 应用榜单",
+      "url": "https://www.qbitai.com/2026/03/387068.html",
+      "summary": "",
       "time": "03-12",
       "source": "量子位"
     },
     {
-      "title": "ByteDance Introduces Astra: A Dual-Model Approach to Video Generation",
-      "url": "https://syncedreview.com/2026/03/13/bytedance-astra/",
-      "summary": "字节跳动发布视频生成新框架 Astra，采用双模型架构，将语义理解模型与渲染模型解耦，在生成质量和推理速度上均取得显著提升，在多项 benchmark 上超越 Sora 和 Kling。",
-      "time": "03-13",
+      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving …",
+      "time": "08-14",
       "source": "机器之心"
     },
     {
-      "title": "MIT Researchers Unveil 'SEAL': A New Steering Method for LLMs",
-      "url": "https://syncedreview.com/2026/03/13/mit-seal/",
-      "summary": "MIT 研究团队提出 SEAL（Steerable Embedding Alignment for LLMs），一种无需微调即可在推理时引导大语言模型行为的新方法，在对齐、安全性和风格控制等任务上效果优异。",
-      "time": "03-13",
+      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor env…",
+      "time": "06-24",
+      "source": "机器之心"
+    },
+    {
+      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement …",
+      "time": "06-16",
+      "source": "机器之心"
+    },
+    {
+      "title": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
+      "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
+      "summary": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the p…",
+      "time": "06-16",
+      "source": "机器之心"
+    },
+    {
+      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
+      "summary": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coher…",
+      "time": "05-28",
       "source": "机器之心"
     },
     {
       "title": "率先向AI托管账号出手，为什么小红书要打响第一枪？",
-      "url": "https://36kr.com/p/3216890",
-      "summary": "小红书宣布将对平台内 AI 生成内容账号实施强制标注与托管制度，成为国内首个系统性规范 AI 账号的内容平台。此举被业界视为 AI 内容监管的重要信号。",
-      "time": "03-13",
-      "source": "36氪"
+      "url": "https://36kr.com/p/3720962630417024?f=rss",
+      "summary": "托举小红书社区氛围的真实体验和情感，只能来源于人。 当OpenClaw爆火，“养龙虾”安全性仍存疑之时，借助OpenClaw等AI工具形成的AI托管账号已经悄悄流向主流内容社区。 在此背景下，小红书向AI托管账号开了第一枪，这也是主流平台首…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
     },
     {
-      "title": "Facebook Marketplace adds AI auto-replies for sellers",
-      "url": "https://www.theverge.com/2026/3/13/facebook-marketplace-ai-replies",
-      "summary": "Meta 为 Facebook Marketplace 卖家推出 AI 自动回复功能，可智能理解买家询问并生成个性化回复，大幅降低卖家响应成本，首批在美国市场开放测试。",
-      "time": "03-13",
-      "source": "The Verge"
+      "title": "科氪 | AWE 2026再携重磅阵容，MOVA全面披露芯片战略，擎画“主动时代”技术版图",
+      "url": "https://36kr.com/p/3720969176988041?f=rss",
+      "summary": "2026年3月12日，中国上海——当人工智能加速从模型能力走向系统能力，家庭场景正成为AI规模化落地的关键单元。今日，全球超高端AI智慧生活引领者MOVA在中国家电及消费电子博览会（AWE 2026）开幕首日，首次系统披露自研芯片战略，并对…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
     },
     {
-      "title": "Gemini's task automation is here and it's genuinely impressive",
-      "url": "https://www.theverge.com/2026/3/13/gemini-task-automation",
-      "summary": "Google 正式推出 Gemini 任务自动化功能，支持跨应用执行复杂工作流，如自动整理邮件、生成日程摘要、批量处理文档。测试者普遍反映其在实用性上已超越 ChatGPT Operator。",
-      "time": "03-13",
-      "source": "The Verge"
+      "title": "龙虾火爆，但这8个“注意事项”你应该知道",
+      "url": "https://36kr.com/p/3720215408310663?f=rss",
+      "summary": "文｜王毓婵 周鑫雨 编辑｜苏建勋 3月初，大潭参加了深圳一场OpenClaw线下活动。现场人头攒动，两边走道也站满了人。 让几百人聚集在一起的，是当下最火的Agent开源框架，OpenClaw，别称“龙虾”。这款可以被直接部署在电脑本地的A…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
     },
     {
-      "title": "Anthropic's Claude AI can now respond with custom voices",
-      "url": "https://www.theverge.com/2026/3/13/claude-custom-voices",
-      "summary": "Anthropic 为 Claude 推出语音响应功能，支持多种个性化声音风格，并开放 API 供开发者集成。这是 Anthropic 在多模态交互领域的重要一步，与 OpenAI 的语音模式直接竞争。",
-      "time": "03-13",
-      "source": "The Verge"
+      "title": "8点1氪丨微信新功能可“忽略”语音/视频来电；多所高校紧急禁用AI龙虾；苹果折叠屏顶配或超2万元",
+      "url": "https://36kr.com/p/3720613899958912?f=rss",
+      "summary": "今日热点导览 腾讯回应OpenClaw之父Peter的“抄袭”指责：希望继续支持生态 中国灵活就业人员超2.4亿，参加职工保险支持政策将出台 苹果回应有人利用“14天无理由退货”换屏退货赚差价 曝千问郁博文加入字节跳动，字节暂未回应 今年以…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
     },
     {
-      "title": "Bespoke AI models are the next big thing for enterprises",
-      "url": "https://www.theverge.com/2026/3/13/bespoke-ai-enterprise",
-      "summary": "越来越多的大型企业开始抛弃通用 AI 模型，转而投资定制化专属模型。报告显示，企业级定制模型的 ROI 平均比通用模型高出 3 倍，成本控制和数据安全是核心驱动因素。",
-      "time": "03-12",
-      "source": "The Verge"
+      "title": "美团王莆中：建设物理世界AI底座，帮每个商家都用上自己的AI助理",
+      "url": "https://36kr.com/newsflashes/3721113083525511?f=rss",
+      "summary": "3月13日，美团召开2026管理层沟通会。对于AI发展，美团核心本地商业CEO王莆中表示，美团将坚持加大投入，一层是投入研发物流、机器人等相关科技，譬如无人机、无人车等；另一层是建设丰富的物理世界信息、真实的评价，捕捉即时动态的信息，为模型…",
+      "time": "2026-03-13",
+      "source": "36氪AI"
     },
     {
-      "title": "Anthropic doesn't trust the Pentagon, and that's a problem",
-      "url": "https://www.theverge.com/2026/3/12/anthropic-pentagon",
-      "summary": "Anthropic 拒绝与美国国防部签署大规模 AI 军事应用合同，坚持其「负责任 AI」原则。这一决定引发硅谷关于 AI 公司是否应服务于军事用途的激烈讨论。",
-      "time": "03-12",
-      "source": "The Verge"
+      "title": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages",
+      "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+      "summary": "Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
     },
     {
-      "title": "The end of the entry-level job? AI is reshaping hiring",
-      "url": "https://www.technologyreview.com/2026/03/13/ai-entry-level-jobs/",
-      "summary": "MIT Technology Review 深度报道：AI 自动化正在系统性消除初级白领岗位，包括数据录入、基础客服、初级分析等职位。多家咨询公司已将新员工招聘量削减 30% 以上。",
-      "time": "03-13",
-      "source": "MIT Tech Review"
+      "title": "Gemini’s task automation is here and it’s wild",
+      "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "summary": "A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automa…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
     },
     {
-      "title": "OpenAI's new model can reason about images like never before",
-      "url": "https://www.technologyreview.com/2026/03/12/openai-image-reasoning/",
-      "summary": "OpenAI 最新视觉推理模型在医学影像诊断、工程图纸解析、卫星图像分析等专业领域表现出色，在多项专业考试中超越人类专家平均水平，已进入多家医院试点部署。",
-      "time": "03-12",
-      "source": "MIT Tech Review"
+      "title": "Anthropic’s Claude AI can respond with charts, diagrams, and other visuals now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizati…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
     },
     {
-      "title": "AI agents are taking over software development workflows",
-      "url": "https://techcrunch.com/2026/03/13/ai-agents-software-dev/",
-      "summary": "TechCrunch 调查显示，超过 60% 的美国科技公司已在生产环境中部署 AI 编程 Agent，其中 GitHub Copilot Workspace 和 Cursor 使用率最高，部分团队代码提交量提升超 40%。",
-      "time": "03-13",
-      "source": "TechCrunch"
+      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
+      "url": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "summary": "Today we’re talking about the messy, fast-moving situation at Anthropic, the maker of Claude that now finds itself in a …",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
     },
     {
-      "title": "Perplexity raises $500M at $14B valuation to take on Google",
-      "url": "https://techcrunch.com/2026/03/13/perplexity-fundraise/",
-      "summary": "AI 搜索引擎 Perplexity 完成 5 亿美元新一轮融资，估值达 140 亿美元。本轮由 SoftBank 领投，Perplexity 宣布将加速国际化布局，并推出面向企业的 Perplexity Enterprise Pro。",
-      "time": "03-13",
-      "source": "TechCrunch"
-    },
-    {
-      "title": "VentureBeat: The rise of 'small language models' in production",
-      "url": "https://venturebeat.com/2026/03/13/small-language-models/",
-      "summary": "企业正在从大模型转向针对垂直场景优化的小语言模型（SLM）。Phi-4、Mistral Nemo 等 SLM 在客服、代码补全、文档摘要等特定任务上成本仅为 GPT-4 的 1/10，效果相当。",
-      "time": "03-13",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Show HN: I built an open-source AI code reviewer that runs locally",
-      "url": "https://news.ycombinator.com/item?id=43352910",
-      "summary": "HN 热帖：一位独立开发者发布了完全本地运行的 AI 代码审查工具，基于 Llama 3.1，支持 50+ 种编程语言，无需联网、无数据泄露风险，GitHub 48 小时内获 3200 star。",
-      "time": "03-13",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Ask HN: How are you using AI in your daily workflow? (500+ comments)",
-      "url": "https://news.ycombinator.com/item?id=43351200",
-      "summary": "HN 高热讨论：超过 500 名工程师和产品人分享 AI 工具如何改变日常工作流，涵盖从需求分析、代码生成到测试、文档撰写的全链路，其中 80% 表示 AI 已成为不可或缺的工作搭档。",
-      "time": "03-13",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Google DeepMind publishes breakthrough in protein structure prediction",
-      "url": "https://techcrunch.com/2026/03/12/deepmind-protein/",
-      "summary": "DeepMind 发表最新研究成果，AlphaFold 新版本在预测蛋白质复合体结构方面精度再次大幅提升，并首次实现对膜蛋白的高精度预测，对新药研发具有重大意义。",
-      "time": "03-12",
-      "source": "TechCrunch"
+      "title": "Bespoke AI models are the next big thing in filmmaking",
+      "url": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
+      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole clo…",
+      "time": "2026-03-12",
+      "source": "The Verge AI"
     }
   ],
   "biz": [
     {
-      "title": "YC AI Stack: 我们投资组合中最常用的 AI 技术栈",
-      "url": "https://www.ycombinator.com/blog/yc-ai-stack",
-      "summary": "Y Combinator 总结旗下 300+ 家 AI 公司最常用的技术选型：LLM 层以 GPT-4o 和 Claude 3.5 为主，向量数据库首选 Pinecone 和 Supabase，Agent 框架倾向 LangGraph，部署首选 Modal 和 Vercel。",
-      "time": "03-11",
+      "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "url": "https://www.ycombinator.com/blog/adding-canada-back/",
+      "summary": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countrie…",
+      "time": "02-06",
       "source": "YC Blog"
     },
     {
-      "title": "2026 Demo Day：YC 最新批次的 AI 创业趋势分析",
-      "url": "https://www.ycombinator.com/blog/demo-day-2026",
-      "summary": "YC 2026 春季 Demo Day 将于下月举行，本期 40% 的公司专注于 AI Agent 垂直化应用，其中法律、医疗、建筑领域的 AI 公司数量同比增长 3 倍，「AI 替代专业服务」成为最热赛道。",
-      "time": "03-10",
+      "title": "Congratulations to EquipmentShare on Going Public",
+      "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
+      "summary": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they've built the operating syste…",
+      "time": "01-23",
       "source": "YC Blog"
     },
     {
-      "title": "国产AI助手大横评：谁最适合打工人？",
-      "url": "https://www.huxiu.com/article/4012345.html",
-      "summary": "虎嗅对比测评豆包、Kimi、通义千问、文心一言、智谱清言五款国产 AI 助手，从写作、编程、分析、多模态四个维度打分。综合表现豆包和 Kimi 居前，但各有胜负，附详细评测数据。",
-      "time": "03-13",
-      "source": "虎嗅"
+      "title": "Announcing the YC AI Stack",
+      "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/",
+      "summary": "We've partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free c…",
+      "time": "01-17",
+      "source": "YC Blog"
     },
     {
-      "title": "AI创业赚钱路径拆解：从0到1的商业化实战经验",
-      "url": "https://www.huxiu.com/article/4011200.html",
-      "summary": "多位 AI 创业者分享真实商业化路径：ToB 比 ToC 更快回血，垂直行业 SaaS 客单价高但销售周期长，API 套壳竞争激烈利润薄，独立开发者靠 Product Hunt 冷启动仍是可行路径。",
+      "title": "2026 Demo Day Dates",
+      "url": "https://www.ycombinator.com/blog/2026-demo-days/",
+      "summary": "We’re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.",
+      "time": "12-19",
+      "source": "YC Blog"
+    },
+    {
+      "title": "国产AI助手谁最好用？国产AI助手工作能力测评",
+      "url": "http://www.huxiu.com/article/4841087.html?f=wangzhan",
+      "summary": "AI已经能解决我工作里遇到的大部分文字上的问题了......本期视频用豆包、千问、元宝、Kimi和DeepSeek五家AI，实测文本归纳、数据分析、行业洞察和写作能力。下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线…",
       "time": "03-12",
       "source": "虎嗅"
     },
     {
-      "title": "Manus Agents for Telegram — AI 自动化工作流直接在 Telegram 里跑",
-      "url": "https://www.producthunt.com/posts/manus-agents-for-telegram",
-      "summary": "Product Hunt 今日榜首。Manus 推出 Telegram 版 AI Agent，用户可在对话中直接部署自动化工作流，支持网页抓取、文件处理、定时任务等，无需切换工具，月活用户 10 万+。",
-      "time": "03-13",
-      "source": "Product Hunt"
-    },
-    {
-      "title": "Perplexity Computer Skills：让 AI 帮你操控电脑完成任务",
-      "url": "https://www.producthunt.com/posts/perplexity-computer-skills",
-      "summary": "Perplexity 推出 Computer Use 功能，允许 AI 直接操作用户桌面环境执行任务，如自动填写表单、整理文件夹、批量重命名等。目前处于 Beta 阶段，支持 Mac 和 Windows。",
-      "time": "03-13",
-      "source": "Product Hunt"
-    },
-    {
-      "title": "First Round：2026 年最值得关注的 10 个 AI 创业机会",
-      "url": "https://review.firstround.com/ai-opportunities-2026",
-      "summary": "First Round Capital 发布年度报告，列举 10 个尚未被充分探索的 AI 创业机会：包括 AI 驱动的专业教育、工业质检自动化、法律文书生成、多语言客服 Agent 等，每个方向均附市场规模估算。",
+      "title": "为啥都说美国袭击伊朗是“AI战争”的序幕？",
+      "url": "http://www.huxiu.com/article/4841080.html?f=wangzhan",
+      "summary": "一开年，川普连着搞了几波大的，都在短时间内取得了战果。相传，这全靠AI“打通了战争全链路”。在“AI战争”的都市传说当中，大模型公司Anthropic、和神秘情报公司Palantir成了主角，我们今天来聊聊Palantir。下载虎嗅APP，…",
       "time": "03-12",
-      "source": "First Round"
+      "source": "虎嗅"
     },
     {
-      "title": "SaaStr：AI 如何改变 SaaS 公司的定价模式",
-      "url": "https://www.saastr.com/ai-saas-pricing-2026/",
-      "summary": "SaaStr 深度分析：AI 正在颠覆传统按席位收费的 SaaS 模式，越来越多的公司转向「按结果付费」——如按成功处理的客服工单数、生成的合同数收费，Cursor 和 Harvey 是典型案例。",
-      "time": "03-11",
-      "source": "SaaStr"
-    },
-    {
-      "title": "独立开发者月入$10K的AI工具：他做了什么？",
-      "url": "https://www.huxiu.com/article/4010500.html",
-      "summary": "一位华人独立开发者分享其 AI 写作工具从 0 到月收入 10,000 美元的完整历程，核心经验：聚焦单一痛点而非全能助手、早期用 Twitter 冷启动、定价敢于提高、拒绝加功能诱惑。",
+      "title": "龙虾太火，互联网老炮组团进场了",
+      "url": "http://www.huxiu.com/article/4840928.html?f=wangzhan",
+      "summary": "“能和AI聊天就不要和人类聊天，删除所有90年之前出生人的联系方式，千万不要沾染任何老登气息”。孙宇晨这段暴论刚出来的时候，我还有点生气：但我发现，已经有人对号入座了。傅盛、朱啸虎、李开复，最年轻的48岁，最老的64岁，都在这波明显由年轻人…",
       "time": "03-11",
       "source": "虎嗅"
     },
     {
-      "title": "为什么 AI Agent 公司的估值比传统 SaaS 高 10 倍？",
-      "url": "https://www.saastr.com/ai-agent-valuation/",
-      "summary": "当前 AI Agent 公司的估值倍数已达传统 SaaS 的 8-12 倍，核心逻辑在于：Agent 可替代整个工作流而非单一功能，潜在市场空间是 SaaS 的数量级扩展，且边际成本接近零。",
-      "time": "03-10",
-      "source": "SaaStr"
-    },
-    {
-      "title": "How Cursor grew to $200M ARR in 18 months",
-      "url": "https://review.firstround.com/cursor-growth-story",
-      "summary": "First Round 复盘 Cursor 从 0 到 2 亿美元年经常性收入的增长路径：押注开发者体验而非功能堆砌、口碑传播为主要获客渠道、早期刻意不做销售团队——这些反直觉决策如何奏效。",
-      "time": "03-09",
-      "source": "First Round"
-    },
-    {
-      "title": "中国 AI 创业融资报告：2026 年 Q1 谁拿了钱？",
-      "url": "https://www.huxiu.com/article/4009800.html",
-      "summary": "36氪研究院发布 Q1 AI 融资报告：具身智能、AI 医疗、AI 法律赛道融资额同比翻倍；大模型基础设施公司融资趋冷，投资人更关注有真实营收的垂直应用；出海 AI 产品成新热点。",
-      "time": "03-08",
+      "title": "全民追捧“养龙虾”，一代人有一代人的鸡蛋要领",
+      "url": "http://www.huxiu.com/article/4840774.html?f=wangzhan",
+      "summary": "一代人有一代人的鸡蛋要领，如今这代人的鸡蛋可能就是“养龙虾”了，这里的“龙虾”说的不是水产动物，而是当前爆火的OpenClaw，这是一款号称能“接管电脑，解放双手”的开源智能体。下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创…",
+      "time": "03-11",
       "source": "虎嗅"
-    }
-  ],
-  "apps": [
+    },
     {
-      "title": "Manus Agents for Telegram",
-      "url": "https://www.producthunt.com/posts/manus-agents-for-telegram",
-      "summary": "在 Telegram 中直接运行 AI 自动化 Agent，支持网页抓取、定时任务、文件处理，无需额外安装任何软件。",
-      "time": "03-13",
+      "title": "Hyper",
+      "url": "https://www.producthunt.com/products/hyper-10",
+      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
       "title": "Perplexity Computer Skills",
-      "url": "https://www.producthunt.com/posts/perplexity-computer-skills",
-      "summary": "Perplexity 新功能：AI 直接控制你的电脑完成任务，如批量重命名文件、自动填写网页表单，支持 Mac/Win。",
-      "time": "03-13",
+      "url": "https://www.producthunt.com/products/perplexity-computer-skills",
+      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "time": "2026-03-04",
       "source": "Product Hunt"
     },
     {
-      "title": "LocalPDF.io — 完全本地处理的 AI PDF 工具",
-      "url": "https://www.producthunt.com/posts/localpdf-io",
-      "summary": "所有 PDF 操作（压缩、合并、OCR、AI 摘要）完全在浏览器本地完成，零数据上传，隐私完全保护，已支持中文文档。",
-      "time": "03-13",
+      "title": "GradPipe",
+      "url": "https://www.producthunt.com/products/gradpipe",
+      "summary": "Find engineers who never apply by actual github code Discussion | Link",
+      "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "Hyper — 下一代 AI 终端",
-      "url": "https://www.producthunt.com/posts/hyper-terminal",
-      "summary": "集成 AI 的现代终端工具，可自然语言解释命令报错、自动补全复杂 shell 命令、生成脚本，开发者效率神器。",
-      "time": "03-13",
+      "title": "Scindo",
+      "url": "https://www.producthunt.com/products/scindo",
+      "summary": "AI captures decisions, drafts plans, and opens matching PRs. Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    }
+  ],
+  "apps": [
+    {
+      "title": "Hyper",
+      "url": "https://www.producthunt.com/products/hyper-10",
+      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "ClawMote — AI 远程控制你的手机",
-      "url": "https://www.producthunt.com/posts/clawmote",
-      "summary": "通过 AI 语音和文字指令远程控制 iOS/Android 设备，适合自动化测试、无障碍辅助和远程演示场景。",
-      "time": "03-13",
+      "title": "Perplexity Computer Skills",
+      "url": "https://www.producthunt.com/products/perplexity-computer-skills",
+      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "time": "2026-03-04",
       "source": "Product Hunt"
     },
     {
-      "title": "microsoft/BitNet — 1-bit LLM 推理框架",
-      "url": "https://github.com/microsoft/BitNet",
-      "summary": "微软开源的 1-bit 大语言模型推理框架，在 CPU 上运行速度比传统量化方法快 5 倍，内存占用减少 70%，让普通笔记本也能流畅运行 7B 模型。",
-      "time": "03-13",
-      "source": "GitHub Trending"
+      "title": "GradPipe",
+      "url": "https://www.producthunt.com/products/gradpipe",
+      "summary": "Find engineers who never apply by actual github code Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
     },
     {
-      "title": "langflow-ai/openrag — 可视化 RAG 构建工具",
+      "title": "Scindo",
+      "url": "https://www.producthunt.com/products/scindo",
+      "summary": "AI captures decisions, drafts plans, and opens matching PRs. Discussion | Link",
+      "time": "2026-03-12",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "ReplylessAI",
+      "url": "https://www.producthunt.com/products/replylessai",
+      "summary": "AI Email app that's affordable, Hit Inbox Zero Discussion | Link",
+      "time": "2026-03-11",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "langflow-ai/openrag",
       "url": "https://github.com/langflow-ai/openrag",
-      "summary": "拖拽式 RAG 应用构建平台，无需写代码即可搭建企业知识库问答系统，支持 PDF、Word、网页等多种数据源，本周 GitHub Trending 第一。",
-      "time": "03-13",
+      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opens…",
+      "time": "",
       "source": "GitHub Trending"
     },
     {
-      "title": "karpathy/nanochat — 极简本地聊天框架",
-      "url": "https://github.com/karpathy/nanochat",
-      "summary": "Andrej Karpathy 新作：用不到 1000 行 Python 代码实现的极简本地 AI 聊天框架，教学目的为主，代码极度清晰可读，发布 24 小时获 8000 star。",
-      "time": "03-12",
-      "source": "GitHub Trending"
-    },
-    {
-      "title": "vectorize-io/hindsight — AI 驱动的错误复盘工具",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "summary": "自动分析生产环境错误日志，利用 AI 生成根因分析报告和修复建议，支持接入 Datadog、Sentry、PagerDuty，平均节省 40% 的故障排查时间。",
-      "time": "03-12",
-      "source": "GitHub Trending"
-    },
-    {
-      "title": "666ghj/MiroFish — 开源 AI 绘鱼游戏",
+      "title": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
-      "summary": "国人开发的 AI 生成式像素鱼类养成游戏，每条鱼的外观、行为和进化路径完全由 AI 实时生成，无两条鱼相同。开源 1 周获 2000+ star，登上 GitHub Trending。",
-      "time": "03-11",
+      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 简洁通用的群体智能引擎，预测万物 A Simple and Un…",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "Hindsight: Agent Memory That Learns Documentation • Paper • Cookbook • Hindsight Cloud What is Hindsight? Hindsight™ is …",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "summary": "Official inference framework for 1-bit LLMsbitnet.cpp Try it out via this demo, or build and run it on your own CPU or G…",
+      "time": "",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "summary": "The best ChatGPT that $100 can buy.nanochat nanochat is the simplest experimental harness for training LLMs. It is desig…",
+      "time": "",
       "source": "GitHub Trending"
     }
   ]
