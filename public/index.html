@@ -126,80 +126,118 @@
     /* ─── Hero ─── */
     .hero {
       max-width: 1200px; margin: 0 auto;
-      padding: 3rem 2rem 2rem;
+      padding: 2rem 2rem 0;
       position: relative; z-index: 1;
-      display: grid;
-      grid-template-columns: 1fr 420px;
-      gap: 2.5rem;
-      align-items: center;
     }
 
     .hero-left { display: flex; flex-direction: column; gap: 0; }
 
-    /* ─── Cover image ─── */
+    /* ─── Cover image — full width, tall ─── */
     .hero-cover {
       position: relative;
-      border-radius: 16px;
+      border-radius: 20px;
       overflow: hidden;
       border: 1px solid var(--border-bright);
-      aspect-ratio: 16/9;
+      aspect-ratio: 21/9;
       background: var(--bg3);
+      width: 100%;
     }
 
     .hero-cover img {
       width: 100%; height: 100%;
       object-fit: cover;
       display: block;
-      transition: transform 0.4s ease;
+      transition: transform 0.6s ease;
     }
 
-    .hero-cover:hover img { transform: scale(1.03); }
+    .hero-cover:hover img { transform: scale(1.02); }
+
+    /* 渐变遮罩，让文字叠在图上可读 */
+    .hero-cover-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        to right,
+        rgba(10,10,15,0.82) 0%,
+        rgba(10,10,15,0.5) 45%,
+        rgba(10,10,15,0.1) 100%
+      );
+      pointer-events: none;
+    }
+
+    /* 文字内容叠在图上 */
+    .hero-content {
+      position: absolute;
+      top: 0; left: 0; bottom: 0;
+      width: 55%;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 2.5rem 3rem;
+      gap: 0;
+    }
 
     .hero-cover-badge {
       position: absolute;
-      bottom: 12px; left: 12px;
-      background: rgba(10,10,15,0.75);
+      bottom: 14px; right: 16px;
+      background: rgba(10,10,15,0.65);
       backdrop-filter: blur(8px);
       border: 1px solid var(--border-bright);
       border-radius: 8px;
-      padding: 5px 12px;
+      padding: 4px 12px;
       font-family: var(--font-mono);
-      font-size: 0.65rem;
+      font-size: 0.62rem;
       color: var(--accent);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
 
     .hero-cover-glow {
       position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 50% 50%, rgba(255,107,43,0.08) 0%, transparent 70%);
+      background: radial-gradient(ellipse at 30% 50%, rgba(255,107,43,0.06) 0%, transparent 60%);
       pointer-events: none;
     }
 
+    /* stats 条 在封面图下方 */
+    .hero-stats-bar {
+      display: flex; gap: 0;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-top: 1.5rem;
+    }
+
+    .hero-stats-bar .stat {
+      flex: 1;
+      padding: 1rem 1.25rem;
+      border-right: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 3px;
+    }
+
+    .hero-stats-bar .stat:last-child { border-right: none; }
+
     .hero-eyebrow {
       font-family: var(--font-mono);
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       color: var(--accent);
       letter-spacing: 0.15em;
       text-transform: uppercase;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       display: flex; align-items: center; gap: 8px;
     }
 
     .hero-eyebrow::before {
       content: '';
-      display: inline-block; width: 24px; height: 1px;
+      display: inline-block; width: 20px; height: 1px;
       background: var(--accent);
     }
 
     .hero h1 {
       font-family: var(--font-display);
-      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-size: clamp(1.8rem, 3.5vw, 3rem);
       font-weight: 800;
       line-height: 1.1;
       letter-spacing: -0.02em;
-      color: var(--text);
-      margin-bottom: 1rem;
+      color: #fff;
+      margin-bottom: 0.75rem;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
     }
 
     .hero h1 em {
@@ -208,10 +246,11 @@
     }
 
     .hero-sub {
-      font-size: 1rem;
-      color: var(--text-dim);
-      max-width: 520px;
-      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      color: rgba(232,232,240,0.75);
+      max-width: 380px;
+      margin-bottom: 0;
+      line-height: 1.6;
     }
 
     .hero-stats {
@@ -230,9 +269,9 @@
 
     .stat-label {
       font-family: var(--font-mono);
-      font-size: 0.68rem;
+      font-size: 0.65rem;
       color: var(--text-dimmer);
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
     }
 
@@ -479,15 +518,18 @@
     @media (max-width: 900px) {
       .grid { grid-template-columns: 1fr 1fr; }
       .card-featured { grid-column: span 2; }
-      .hero { grid-template-columns: 1fr; }
-      .hero-cover { display: none; }
+      .hero-cover { aspect-ratio: 16/9; }
+      .hero-content { width: 70%; padding: 1.5rem 2rem; }
     }
 
     @media (max-width: 600px) {
       .grid { grid-template-columns: 1fr; }
       .card-featured { grid-column: span 1; }
       nav { display: none; }
-      .hero-stats { gap: 1.5rem; }
+      .hero-cover { aspect-ratio: 4/3; }
+      .hero-content { width: 100%; padding: 1.25rem 1.5rem; }
+      .hero-stats-bar { flex-wrap: wrap; }
+      .hero-stats-bar .stat { min-width: 50%; border-bottom: 1px solid var(--border); }
     }
 
     /* ─── Top accent line ─── */
@@ -517,36 +559,37 @@
 </header>
 
 <section class="hero fade-up">
-  <div class="hero-left">
-    <div class="hero-eyebrow">
-      <span class="live-dot"></span>
-      每日更新 · Daily Update
-    </div>
-    <h1>AI 世界的<br /><em>每日脉搏</em></h1>
-    <p class="hero-sub">精选全球 AI 资讯、商业化点子与新奇应用，每天早 10 点更新。</p>
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-num" id="stat-news">—</span>
-        <span class="stat-label">今日资讯</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num" id="stat-biz">—</span>
-        <span class="stat-label">商业点子</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num" id="stat-apps">—</span>
-        <span class="stat-label">新应用</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num" id="stat-sources">—</span>
-        <span class="stat-label">信息源</span>
-      </div>
-    </div>
-  </div>
   <div class="hero-cover">
-    <img id="cover-img" src="images/cover-latest.png" alt="今日 AI 封面" onerror="this.parentElement.style.display='none'" />
+    <img id="cover-img" src="images/cover-latest.png" alt="今日 AI 封面" onerror="this.parentElement.style.background='var(--bg3)'" />
+    <div class="hero-cover-overlay"></div>
     <div class="hero-cover-glow"></div>
-    <div class="hero-cover-badge" id="cover-badge">今日封面 · AI Generated</div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="live-dot"></span>
+        每日更新 · Daily Update
+      </div>
+      <h1>AI 世界的<br /><em>每日脉搏</em></h1>
+      <p class="hero-sub">精选国内外 AI 资讯、商业化点子与新奇应用，每天早 10 点更新。</p>
+    </div>
+    <div class="hero-cover-badge">今日封面 · AI 生成</div>
+  </div>
+  <div class="hero-stats-bar">
+    <div class="stat">
+      <span class="stat-num" id="stat-news">—</span>
+      <span class="stat-label">今日资讯</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-biz">—</span>
+      <span class="stat-label">商业点子</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-apps">—</span>
+      <span class="stat-label">新应用</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="stat-sources">—</span>
+      <span class="stat-label">信息源</span>
+    </div>
   </div>
 </section>
 

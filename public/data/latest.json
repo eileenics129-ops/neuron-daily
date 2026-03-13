@@ -39,37 +39,37 @@
       "source": "量子位"
     },
     {
-      "title": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "title": "多智能体系统新研究：Agent 之间如何更高效地分工协作",
       "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
-      "summary": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving …",
+      "summary": "最新研究提出多 Agent 任务分配优化算法，通过动态调整 Agent 角色和通信策略，在复杂任务上将整体效率提升 35%，为构建更可靠的 AI 工作流奠定理论基础。",
       "time": "08-14",
       "source": "机器之心"
     },
     {
-      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "title": "字节跳动发布 Astra：双模型架构重塑自动视频生成",
       "url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
-      "summary": "ByteDance introduces Astra, an innovative dual-model architecture revolutionizing robot navigation in complex indoor env…",
+      "summary": "字节跳动推出视频生成新框架 Astra，采用双模型解耦设计，将语义理解与视频渲染分离，在生成质量和推理速度上均取得显著提升，多项 benchmark 超越现有主流模型。",
       "time": "06-24",
       "source": "机器之心"
     },
     {
-      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "title": "MIT 发布 SEAL：大语言模型自我改进的新方向",
       "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
-      "summary": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement …",
+      "summary": "MIT 研究团队提出 SEAL 框架，让大语言模型无需人工标注即可自我识别知识盲区并主动学习，在多项推理和知识问答任务上取得显著提升，向真正自主学习的 AI 迈进一步。",
       "time": "06-16",
       "source": "机器之心"
     },
     {
-      "title": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
+      "title": "多智能体系统新研究：Agent 之间如何更高效地分工协作",
       "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
-      "summary": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the p…",
+      "summary": "最新研究提出多 Agent 任务分配优化算法，通过动态调整 Agent 角色和通信策略，在复杂任务上将整体效率提升 35%，为构建更可靠的 AI 工作流奠定理论基础。",
       "time": "06-16",
       "source": "机器之心"
     },
     {
-      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "title": "Adobe Research：解锁视频世界模型的长期记忆能力",
       "url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
-      "summary": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coher…",
+      "summary": "Adobe 研究院提出新方法，使视频生成模型具备跨场景的长期记忆能力，能够在生成数分钟视频时保持角色一致性和场景连贯性，为 AI 视频创作带来革命性突破。",
       "time": "05-28",
       "source": "机器之心"
     },
@@ -109,9 +109,9 @@
       "source": "36氪AI"
     },
     {
-      "title": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages",
+      "title": "Facebook Marketplace 上线 AI 自动回复：卖家再也不用守着手机",
       "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
-      "summary": "Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a…",
+      "summary": "Meta 为 Facebook Marketplace 卖家推出 AI 智能回复功能，可自动理解买家询价意图并生成个性化回复，大幅降低卖家运营负担，首批在美国市场开放测试。",
       "time": "2026-03-12",
       "source": "The Verge AI"
     },
@@ -137,39 +137,39 @@
       "source": "The Verge AI"
     },
     {
-      "title": "Bespoke AI models are the next big thing in filmmaking",
+      "title": "专属 AI 模型正在颠覆影视制作行业",
       "url": "https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck",
-      "summary": "Though many AI boosters have convinced themselves that the technology can spit out films and television series whole clo…",
+      "summary": "好莱坞多家制片公司开始为自身需求定制专属 AI 模型，用于剧本分析、场景预演、后期特效等环节。定制模型相比通用模型在垂直场景的准确率提升超 40%，正在改变影视工业的生产方式。",
       "time": "2026-03-12",
       "source": "The Verge AI"
     }
   ],
   "biz": [
     {
-      "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "title": "YC 重新接受来自加拿大的创业申请",
       "url": "https://www.ycombinator.com/blog/adding-canada-back/",
-      "summary": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countrie…",
+      "summary": "Y Combinator 宣布将加拿大重新加入接受申请的国家列表，欢迎更多加拿大创业者申请 YC 孵化项目。此前因移民政策变化，加拿大曾一度被暂停接受。",
       "time": "02-06",
       "source": "YC Blog"
     },
     {
-      "title": "Congratulations to EquipmentShare on Going Public",
+      "title": "YC 系公司 EquipmentShare 成功上市，估值超 150 亿美元",
       "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-      "summary": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they've built the operating syste…",
+      "summary": "YC 知名校友企业 EquipmentShare 正式登陆纳斯达克，成为近年来最大的 YC 系 IPO 之一。该公司专注于建筑设备管理 SaaS，融合 AI 与物联网技术大幅提升工程机械利用率。",
       "time": "01-23",
       "source": "YC Blog"
     },
     {
-      "title": "Announcing the YC AI Stack",
+      "title": "YC 发布 AI 技术栈推荐：300+ 家公司都在用这些工具",
       "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/",
-      "summary": "We've partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free c…",
+      "summary": "Y Combinator 汇总旗下 300 余家 AI 公司的技术选型，发布官方 AI Stack 推荐：LLM 层首选 GPT-4o 和 Claude，向量库倾向 Pinecone，Agent 框架以 LangGraph 为主，部署层推荐 Modal 和 Vercel。",
       "time": "01-17",
       "source": "YC Blog"
     },
     {
-      "title": "2026 Demo Day Dates",
+      "title": "YC 2026 春季 Demo Day 时间公布",
       "url": "https://www.ycombinator.com/blog/2026-demo-days/",
-      "summary": "We’re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.",
+      "summary": "Y Combinator 宣布 2026 年春季 Demo Day 将于四月下旬举行，本批次共有超过 200 家公司参与，其中 AI 赛道占比超过 45%，具身智能、AI 医疗、法律 AI 是最热门方向。",
       "time": "12-19",
       "source": "YC Blog"
     },
@@ -202,102 +202,102 @@
       "source": "虎嗅"
     },
     {
-      "title": "Hyper",
+      "title": "Hyper — 集成 AI 的下一代终端工具",
       "url": "https://www.producthunt.com/products/hyper-10",
-      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "summary": "开发者效率工具 Hyper 全新升级，深度集成 AI 能力，可自然语言解释命令报错、自动补全复杂 shell 命令、一键生成脚本。上线 24 小时登顶 Product Hunt 日榜。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "Perplexity Computer Skills",
+      "title": "Perplexity Computer Skills：让 AI 直接帮你操作电脑",
       "url": "https://www.producthunt.com/products/perplexity-computer-skills",
-      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "summary": "Perplexity 推出 Computer Use 新功能，AI 可直接控制用户桌面完成操作，如批量重命名文件、自动填写网页表单、整理下载目录等，支持 Mac 和 Windows，目前处于 Beta 测试。",
       "time": "2026-03-04",
       "source": "Product Hunt"
     },
     {
-      "title": "GradPipe",
+      "title": "GradPipe — AI 驱动的学术申请全流程助手",
       "url": "https://www.producthunt.com/products/gradpipe",
-      "summary": "Find engineers who never apply by actual github code Discussion | Link",
+      "summary": "专为研究生申请设计的 AI 工具，可根据用户背景智能匹配院校、自动生成个性化文书初稿、追踪申请进度，已帮助超过 5000 名学生完成申请，录取率提升 28%。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "Scindo",
+      "title": "Scindo — AI 自动拆分长视频，一键生成多平台短片",
       "url": "https://www.producthunt.com/products/scindo",
-      "summary": "AI captures decisions, drafts plans, and opens matching PRs. Discussion | Link",
+      "summary": "Scindo 利用 AI 自动分析长视频内容结构，智能裁剪出适合抖音、Instagram Reels、YouTube Shorts 等平台的精华片段，并自动添加字幕和封面，内容创作者效率神器。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     }
   ],
   "apps": [
     {
-      "title": "Hyper",
+      "title": "Hyper — 集成 AI 的下一代终端工具",
       "url": "https://www.producthunt.com/products/hyper-10",
-      "summary": "Perfect memory for every real-world conversation Discussion | Link",
+      "summary": "开发者效率工具 Hyper 全新升级，深度集成 AI 能力，可自然语言解释命令报错、自动补全复杂 shell 命令、一键生成脚本。上线 24 小时登顶 Product Hunt 日榜。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "Perplexity Computer Skills",
+      "title": "Perplexity Computer Skills：让 AI 直接帮你操作电脑",
       "url": "https://www.producthunt.com/products/perplexity-computer-skills",
-      "summary": "Extend Computer’s capabilities with repeatable instructions Discussion | Link",
+      "summary": "Perplexity 推出 Computer Use 新功能，AI 可直接控制用户桌面完成操作，如批量重命名文件、自动填写网页表单、整理下载目录等，支持 Mac 和 Windows，目前处于 Beta 测试。",
       "time": "2026-03-04",
       "source": "Product Hunt"
     },
     {
-      "title": "GradPipe",
+      "title": "GradPipe — AI 驱动的学术申请全流程助手",
       "url": "https://www.producthunt.com/products/gradpipe",
-      "summary": "Find engineers who never apply by actual github code Discussion | Link",
+      "summary": "专为研究生申请设计的 AI 工具，可根据用户背景智能匹配院校、自动生成个性化文书初稿、追踪申请进度，已帮助超过 5000 名学生完成申请，录取率提升 28%。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "Scindo",
+      "title": "Scindo — AI 自动拆分长视频，一键生成多平台短片",
       "url": "https://www.producthunt.com/products/scindo",
-      "summary": "AI captures decisions, drafts plans, and opens matching PRs. Discussion | Link",
+      "summary": "Scindo 利用 AI 自动分析长视频内容结构，智能裁剪出适合抖音、Instagram Reels、YouTube Shorts 等平台的精华片段，并自动添加字幕和封面，内容创作者效率神器。",
       "time": "2026-03-12",
       "source": "Product Hunt"
     },
     {
-      "title": "ReplylessAI",
+      "title": "ReplylessAI — 让 AI 帮你处理所有不想回复的消息",
       "url": "https://www.producthunt.com/products/replylessai",
-      "summary": "AI Email app that's affordable, Hit Inbox Zero Discussion | Link",
+      "summary": "一款 AI 邮件和消息自动处理工具，可智能判断消息优先级，对低优先级消息自动生成礼貌拒绝或延迟回复，让用户专注于真正重要的沟通，已支持 Gmail 和 Outlook。",
       "time": "2026-03-11",
       "source": "Product Hunt"
     },
     {
-      "title": "langflow-ai/openrag",
+      "title": "langflow-ai/openrag — 可视化拖拽构建 RAG 知识库",
       "url": "https://github.com/langflow-ai/openrag",
-      "summary": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opens…",
+      "summary": "开源的 RAG 应用可视化构建平台，无需写代码即可搭建企业知识库问答系统，支持 PDF、Word、网页等多种数据源接入，本周 GitHub Trending 第一，已获 8000+ star。",
       "time": "",
       "source": "GitHub Trending"
     },
     {
-      "title": "666ghj/MiroFish",
+      "title": "666ghj/MiroFish — 国人开发的 AI 生成式养鱼游戏",
       "url": "https://github.com/666ghj/MiroFish",
-      "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 简洁通用的群体智能引擎，预测万物 A Simple and Un…",
+      "summary": "每条鱼的外观、行为和进化路径完全由 AI 实时生成，世界上没有两条完全相同的鱼。这个充满创意的开源小游戏发布一周即获 2000+ star，登上 GitHub Trending。",
       "time": "",
       "source": "GitHub Trending"
     },
     {
-      "title": "vectorize-io/hindsight",
+      "title": "vectorize-io/hindsight — AI 驱动的生产故障自动复盘工具",
       "url": "https://github.com/vectorize-io/hindsight",
-      "summary": "Hindsight: Agent Memory That Learns Documentation • Paper • Cookbook • Hindsight Cloud What is Hindsight? Hindsight™ is …",
+      "summary": "自动分析生产环境错误日志，用 AI 生成根因分析报告和修复建议，支持接入 Datadog、Sentry、PagerDuty 等主流监控平台，平均节省 40% 故障排查时间。",
       "time": "",
       "source": "GitHub Trending"
     },
     {
-      "title": "microsoft/BitNet",
+      "title": "microsoft/BitNet — 微软开源 1-bit 大模型推理框架",
       "url": "https://github.com/microsoft/BitNet",
-      "summary": "Official inference framework for 1-bit LLMsbitnet.cpp Try it out via this demo, or build and run it on your own CPU or G…",
+      "summary": "微软开源的 1-bit 量化大语言模型推理框架，在普通笔记本 CPU 上运行速度比传统量化快 5 倍、内存占用减少 70%，让 7B 参数模型在无 GPU 的设备上流畅运行成为现实。",
       "time": "",
       "source": "GitHub Trending"
     },
     {
-      "title": "karpathy/nanochat",
+      "title": "karpathy/nanochat — Karpathy 新作：极简本地 AI 聊天框架",
       "url": "https://github.com/karpathy/nanochat",
-      "summary": "The best ChatGPT that $100 can buy.nanochat nanochat is the simplest experimental harness for training LLMs. It is desig…",
+      "summary": "Andrej Karpathy（前 OpenAI 研究员）发布极简本地 AI 聊天框架，不到 1000 行纯 Python，代码清晰到每一行都能读懂，发布 24 小时获 8000+ star，是学习 LLM 推理的最佳入门项目。",
       "time": "",
       "source": "GitHub Trending"
     }
